@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge AluraGeek</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="Logotipo de syn">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#agregar-producto">Agregar Producto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="productos">
+            <h1>MIS PRODUCTOS:</h1>
+            <div class="product-list" id="productos-container"></div>
+        </section>
+        <section id="agregar-producto">
+            <h1>AGREGAR PRODUCTO:</h1>
+            <form id="product-form">
+                <input type="text" id="product-name" placeholder="nombre" required>
+                <input type="text" id="product-price" placeholder="precio" required>
+                <input type="text" id="product-image" placeholder="URL de imagen" required>
+                <div class="form-buttons">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <img src="img/logo.jpg" alt="Logotipo de syn">
+        <p>Desarrollado por Yenifer Arroyave</p>
+        <p>&copy; 2024 Desarrollado para AluraGeek</p>
+    </footer>
+
+    <script type="module" src="js/products.js"></script>
+</body>
+</html>

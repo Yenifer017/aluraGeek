@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "nombre": "Hamburguesa",
+            "precio": 15,
+            "imagen": "img/hamburguesa.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Perro Caliente",
+            "precio": 12,
+            "imagen": "img/perrocaliente.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Picada Familiar",
+            "precio": 40,
+            "imagen": "img/picadafamilia.jpg"
+        }
+    ]
+}
